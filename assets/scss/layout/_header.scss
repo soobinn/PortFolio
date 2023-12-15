@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+    nav {
+        height: 50px;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        padding: 0px 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list {
+        height: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .nav-item {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        a {
+            font-size: 18px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            letter-spacing: -1px;
+            justify-content: center;
+        }
+    }
+}
