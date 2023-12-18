@@ -58,20 +58,6 @@ function scrollToMenu(menuSelector) {
     $("html, body").animate({ scrollTop: conHeight }, 500);
 }
 
-$("header .nav-list .mobile-menu").click(function (e) {
-    if ($(".mobile-con ").hasClass("on")) {
-        $(".mobile-menu .circle").toggleClass("on");
-        $(".mobile-con").toggleClass("on");
-    } else {
-        $(".mobile-menu .circle").toggleClass("on");
-        $(".mobile-con").toggleClass("on");
-    }
-});
-
-$(".mobile-con .mobile-list a").click(function (e) {
-    $(".mobile-menu .circle").removeClass("on");
-    $(".mobile-con").removeClass("on");
-});
 // 메인 text
 
 const headTxt = new SplitType(".sc-main .text-wrap .desc .text:nth-child(2)", {
