@@ -20,6 +20,8 @@
     opacity: 0.04;
     z-index: -1;
 }
+
+// 로딩화면
 .loading {
     display: none;
     position: fixed;
@@ -84,8 +86,15 @@
         }
     }
 }
+
 .inner {
     padding: 100px 150px;
+    @include desktop {
+        padding: 100px 50px;
+    }
+    @include tablet {
+        padding: 100px 10px;
+    }
 }
 
 .header-module {
@@ -108,12 +117,21 @@
         display: flex;
         justify-content: space-between;
         padding: 0px 150px;
+        @include desktop {
+            padding: 0 50px;
+        }
+        @include tablet {
+            padding: 0px 10px;
+        }
         & > div {
             opacity: 0;
         }
         & > div + div {
             font-weight: 200;
             padding-top: 10px;
+            @include tablet {
+                font-size: 14px;
+            }
         }
 
         .sub-box {
@@ -127,6 +145,13 @@
                 font-weight: 500;
                 text-transform: uppercase;
                 letter-spacing: -5px;
+                @include tablet {
+                    font-size: 60px;
+                }
+                @include mobile {
+                    font-size: 30px;
+                    letter-spacing: -2px;
+                }
             }
             span {
                 display: block;

@@ -1,7 +1,7 @@
 header {
     position: fixed;
     width: 100%;
-    z-index: 9;
+    z-index: 10;
 
     nav {
         height: 50px;
@@ -12,6 +12,12 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @include desktop {
+            padding: 0 50px;
+        }
+        @include tablet {
+            padding: 0px 10px;
+        }
     }
     .nav-list {
         height: 100%;
@@ -25,7 +31,9 @@ header {
         align-items: center;
         justify-content: center;
         text-transform: uppercase;
+
         a {
+            display: block;
             font-size: 18px;
             font-weight: 400;
             display: flex;
@@ -33,6 +41,15 @@ header {
             height: 100%;
             letter-spacing: -1px;
             justify-content: center;
+            transition: 0.5s;
+            @include mobile {
+                font-size: 13px;
+            }
+
+            &:hover {
+                font-size: 25px;
+                font-weight: 500;
+            }
         }
     }
 }
