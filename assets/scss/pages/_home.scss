@@ -261,6 +261,7 @@ body {
     .header-line {
         width: 100%;
         position: relative;
+
         @include mobile {
             flex-direction: column;
         }
