@@ -1282,6 +1282,11 @@ header .nav-item a:hover {
   font-size: 25px;
   font-weight: 500;
 }
+@media (max-width: 767px) {
+  header .nav-item a:hover {
+    font-size: 13px;
+  }
+}
 
 footer {
   height: 50px;
