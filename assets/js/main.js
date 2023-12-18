@@ -100,7 +100,6 @@ $(".header-module").each(function () {
             trigger: this,
             start: "0% 70%",
             end: "100% 100%",
-            markers: 1,
         },
     });
 
