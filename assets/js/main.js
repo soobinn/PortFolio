@@ -98,8 +98,9 @@ $(".header-module").each(function () {
     let tl = gsap.timeline({
         scrollTrigger: {
             trigger: this,
-            start: "0% 50%",
+            start: "0% 70%",
             end: "100% 100%",
+            markers: 1,
         },
     });
 
