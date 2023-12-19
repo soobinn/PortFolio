@@ -1117,6 +1117,8 @@ body {
 }
 
 .header-module {
+  max-width: 1920px;
+  margin: 0 auto;
   text-transform: uppercase;
   position: relative;
   --width: 0%;
