@@ -96,7 +96,7 @@ body {
                 .img-wrap {
                     height: 450px;
                     @include mobile {
-                        height: 250px;
+                        height: 350px;
                     }
                 }
             }
@@ -120,7 +120,7 @@ body {
             flex: 1;
             gap: 10px;
             .img-wrap {
-                height: 250px;
+                height: 350px;
             }
             @include mobile {
                 flex-direction: column;
@@ -131,7 +131,7 @@ body {
             .img-wrap {
                 height: 450px;
                 @include mobile {
-                    height: 250px;
+                    height: 350px;
                 }
             }
         }
@@ -209,18 +209,6 @@ body {
         .img-wrap {
             @include tablet {
                 height: 350px;
-            }
-            @include mobile {
-                height: 250px;
-            }
-        }
-        &:nth-child(2),
-        &:nth-child(3) {
-            .img-wrap {
-                flex: 0.7;
-                @include tablet {
-                    flex: auto;
-                }
             }
         }
     }

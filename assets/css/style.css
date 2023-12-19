@@ -1448,7 +1448,7 @@ body.on {
 @media (max-width: 767px) {
   .sc-project .project-wrap:nth-child(2) .left .img-wrap,
   .sc-subProject .project-wrap:nth-child(2) .left .img-wrap {
-    height: 250px;
+    height: 350px;
   }
 }
 .sc-project .project-wrap:nth-child(2) .right,
@@ -1485,7 +1485,7 @@ body.on {
 }
 .sc-project .project-wrap .left .img-wrap,
 .sc-subProject .project-wrap .left .img-wrap {
-  height: 250px;
+  height: 350px;
 }
 @media (max-width: 767px) {
   .sc-project .project-wrap .left,
@@ -1509,7 +1509,7 @@ body.on {
 @media (max-width: 767px) {
   .sc-project .project-wrap .right .img-wrap,
   .sc-subProject .project-wrap .right .img-wrap {
-    height: 250px;
+    height: 350px;
   }
 }
 .sc-project .con-project,
@@ -1607,23 +1607,6 @@ body.on {
 @media (max-width: 1023px) {
   .sc-subProject .con-project .img-wrap {
     height: 350px;
-  }
-}
-@media (max-width: 767px) {
-  .sc-subProject .con-project .img-wrap {
-    height: 250px;
-  }
-}
-.sc-subProject .con-project:nth-child(2) .img-wrap, .sc-subProject .con-project:nth-child(3) .img-wrap {
-  -webkit-box-flex: 0.7;
-      -ms-flex: 0.7;
-          flex: 0.7;
-}
-@media (max-width: 1023px) {
-  .sc-subProject .con-project:nth-child(2) .img-wrap, .sc-subProject .con-project:nth-child(3) .img-wrap {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto;
   }
 }
 
