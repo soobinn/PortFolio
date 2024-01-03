@@ -1119,6 +1119,8 @@ body {
 }
 
 .header-module {
+  max-width: 1920px;
+  margin: 0 auto;
   text-transform: uppercase;
   position: relative;
   --width: 0%;
@@ -1324,11 +1326,6 @@ body.on {
   color: #fff;
 }
 
-.container {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
 .sc-main .img-wrap .img-box {
   height: 85vh;
 }
@@ -1342,6 +1339,10 @@ body.on {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.sc-main .text-wrap {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .sc-main .text-wrap .text-box {
   font-size: 45px;
