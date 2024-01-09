@@ -1493,7 +1493,13 @@ body.on {
 }
 .sc-project .project-wrap .left .img-wrap,
 .sc-subProject .project-wrap .left .img-wrap {
-  height: 350px;
+  height: 450px;
+}
+@media (max-width: 767px) {
+  .sc-project .project-wrap .left .img-wrap,
+  .sc-subProject .project-wrap .left .img-wrap {
+    height: 350px;
+  }
 }
 @media (max-width: 767px) {
   .sc-project .project-wrap .left,
@@ -1612,8 +1618,16 @@ body.on {
 .sc-subProject .con-project a[class*=link-] {
   height: 100%;
 }
+.sc-subProject .con-project .img-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
 @media (max-width: 1023px) {
   .sc-subProject .con-project .img-wrap {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
     height: 350px;
   }
 }

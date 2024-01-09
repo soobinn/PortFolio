@@ -123,7 +123,10 @@ body {
             flex: 1;
             gap: 10px;
             .img-wrap {
-                height: 350px;
+                height: 450px;
+                @include mobile {
+                    height: 350px;
+                }
             }
             @include mobile {
                 flex-direction: column;
@@ -210,7 +213,9 @@ body {
             height: 100%;
         }
         .img-wrap {
+            flex: 1;
             @include tablet {
+                flex: none;
                 height: 350px;
             }
         }
